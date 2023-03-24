@@ -16,10 +16,10 @@ function NewNote() {
       </div>
     </form>
   );
-}
+};
 
 export default NewNote;
 
 export function links() {
   return [{ rel: 'stylesheet', href: styles }];
-}
+};
