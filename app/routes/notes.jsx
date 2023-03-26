@@ -53,6 +53,13 @@ export function links() {
   ];
 };
 
+export function meta() {
+  return {
+    title: 'All Notes',
+    description: 'This is a page for all your notes',
+  };
+}
+
 // this will handle the error thrown by the loader function for this route
 export function CatchBoundary() {
   const caught = useCatch();
